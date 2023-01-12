@@ -11,8 +11,8 @@ function hola(nombre) {
     return new Promise((resolve, reject) => {
     setTimeout(function () {
       console.log("Bla bla bla bla...");
-       //resolve(nombre);
-       reject("Hay un error");
+       resolve(nombre);
+       //reject("Hay un error");
     }, 1000);
     });
   }
